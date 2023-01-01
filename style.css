@@ -1,0 +1,117 @@
+*{ /* universal selection*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #fbeee0;
+}
+
+.main{ /*styling the base of the site*/
+    width: 100%;
+    height: 640px;
+    display: flex;
+    background-image: url("mainbg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: 0;
+    backface-visibility: visible;
+}
+
+.information{ /*styling the left box */
+    content: "";
+    width: 50%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    margin-right: 10px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    border-radius: 30px;
+    background-color: #000080;
+    opacity: 0.75;
+}
+
+.bio{ /* positioning and sizing the bio*/
+    top: 70%;
+    right: 60%;
+    position: relative;
+    margin-left: 5%;
+    width: 80%;
+    height: 30%;
+}
+
+.paragraph{ /*positioning of values*/
+    top: 10%;
+    position: relative;
+    width: 60%;
+    height: 40%;
+    left: 20%;
+}
+
+.paragraph p{ 
+    padding-left: 3px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.image{ /*styling the profile image */
+    position: relative;
+    border-radius: 25px;
+    padding: 10px;
+    width: 25%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.input{ /*styling the right box */
+    content: "";
+    border-radius: 30px;
+    background-color: #000080;
+    opacity: 0.75;
+    flex-direction: column;
+    display: flex;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.box{ /*styling the input */
+    display: block;
+    left: 2.5cm;
+    top: 20%;
+    position: relative;
+    width: 30%;
+    height: 10%;
+    font-family: Oswald-Medium;
+    font-size: 16px;
+    color: #43383e;
+    line-height: 1.2;
+    position: relative;
+    display: block;
+    background: #fff;
+    border-radius: 31px;
+    padding: 0 35px;
+}
+
+.submit{ /*styling submit button */
+    position: relative;
+    color: #43383e;
+    width: 30%;
+    height: 10%;
+    left: 3.2cm;
+    top: 3cm;
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+}
